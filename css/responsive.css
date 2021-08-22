@@ -201,14 +201,14 @@
     }
 
     #menu{
-        
         float: none;
-        border: 1px solid red;
         position: absolute !important;
         width: 100px;
         margin-top: 67px;
         margin-left: -362px;
         transition: all 0.5s;
+        /* border: 1px solid red; */
+        height: 124px;
     }
 
     #search {
@@ -220,5 +220,9 @@
     }
 
     /* fin menu celular */
+
+    .cuadro1 {
+        top: 192px;
+    }
 }
 
