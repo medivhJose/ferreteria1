@@ -1,0 +1,202 @@
+@media (max-width: 1263px){
+
+    #search{
+        margin-left: 2%;
+    }
+    
+    #trolley {
+        margin-left: 9%;
+    }
+
+    #slider .bx-wrapper .bx-prev {
+        left: 104% !important;
+    }
+    
+    #slider .bx-wrapper .bx-next {
+        right: -13% !important;
+    }
+}
+
+@media (max-width: 1181px){
+
+    #search {
+        margin-left: 0.5%;
+    }
+
+    #search input[type="text"] {
+        width: 241px;
+    }
+
+    #trolley {
+        margin-left: 2%;
+        width: 13%;
+    }
+
+    #slider .bx-wrapper .bx-prev {
+        left: 91% !important;
+    }
+    
+    #slider .bx-wrapper .bx-next {
+        right: 0% !important;
+    }
+
+    .cuadro1 {
+        width: 37%;
+        height: 42%;
+        
+    }
+
+    .cuadro1 h1{
+        font-size: 40px;
+    }
+
+    .cuadro1 p{
+        top: 192px;
+        font-size: 15px;
+    }
+    .cuadro1 #boton{
+        top: 291px;
+        width: 317px;
+    }
+    .cuadro1 a{
+        left: 90px;
+    }
+
+    .cuadro2{
+        left: 60%;
+    }
+
+    footer .contactanos {
+        margin-left: -4%; 
+    }
+
+}
+
+@media (max-width: 1176px){
+
+    #menu ul li  i{
+        display: none;
+    }
+    #menu ul li  o{
+        display: none;
+    }
+    #menu ul li  e{
+        display: none;
+    }
+
+    #menu ul li {
+        margin-right: -10px;
+    }
+
+    .cuadro2 #description p{
+        display: none;
+    }
+
+    /* .cuadro1{
+        left: 15px;
+        width: 36%;
+        height: 173%;
+    } */
+}
+
+@media (max-width: 1086px){
+
+    #search {
+        margin-left: -6.5%;
+    }
+
+    #trolley {
+        margin-left: 1%;
+        width: 14%;
+    }
+
+
+    #trolley {
+        letter-spacing: 4px; 
+    }
+
+    #slider .bx-wrapper .bx-prev {
+        left: 77% !important;
+    }
+
+    #slider .bx-wrapper .bx-next {
+        right: 13% !important;
+    }
+
+    .cuadro1 {
+        width: 32%;
+        height: 41%;
+    }
+
+    .cuadro1 h1 {
+        font-size: 35px;
+    }
+
+    .cuadro1 p {
+        top: 160px;
+        width: 265px;
+        
+    }
+
+    .cuadro1 #boton {
+        top: 252px;
+        width: 250px;
+    }
+
+    .cuadro1 a {
+        left: 63px;
+    }
+
+    footer .contactanos {
+        margin-left: -8%;
+    }
+}
+
+@media (max-width: 1060px){
+
+    #search {
+        margin-left: -8.5%;
+    }
+
+    #trolley {
+        margin-left: 3%;
+    }
+
+    footer .ferretero {
+        margin-left: 74px;
+        
+    }
+
+    .cuadro1 {
+        width: 28%;
+        height: 31%;
+        top: 158px;
+    }
+
+    .cuadro1 h1{
+        width: 289px;
+        font-size: 27px;
+    }
+
+    .cuadro1 p{
+        display: none;
+    }
+
+    .cuadro1 #boton {
+        top: 155px;
+        width: 212px;
+    }
+
+    .cuadro1 a {
+        left: 41px;
+    }
+}
+
+@media (max-width: 994px){
+
+
+    /* 3menu celular */
+    
+    /* fin menu celular */
+}
+

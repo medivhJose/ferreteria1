@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/d8abe2c090.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Slider --> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Mis Scripts -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>Ferreteria</title>
+</head>
+<body>
+    <!-- Inicio de Cabecera -->
+    <header id="header">
+        <div class="wrap">
+
+            <div id="logo">
+                <h3>Ferretero.</h3>
+            </div>
+            <!-- 1:menu celular -->
+            <div class="menu-celular">
+                <input type="checkbox" id="btn-menu">
+                <label for="btn-menu"><i class="fas fa-align-justify"></i></label>
+            </div>
+            
+            <!-- fin menu celular -->
+
+            <nav id="menu">
+                <ul>
+                    <li><a class="menuProducto" href="#">Productos</a><span><i class="fas fa-angle-down"></i></span></li>
+                    <li><a class="menuServicios" href="#">Servicios</a><span><o class="fas fa-angle-down"></o></span></li>
+                    <li><a href="#">Marcas</a><span><e class="fas fa-angle-down"></e></span></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div id="search">
+                <form action="">
+                    <label><i class="fas fa-search"></i></label>
+                    <input type="text"  placeholder="Buscar producto"/>
+                    
+                </form>
+            </div>   
+            <div id="trolley">
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><e class="fas fa-cart-arrow-down"></e></a>
+                <a href="#"><o class="far fa-user-circle"></o></a>
+            </div>   
+
+        </div>
+    </header>
+
+    <!-- FIN DE CABECERA -->
+
+    <!-- Slider -->
+    <div id="slider">
+        <div class="galeria">
+            <div><img src="img/ferreteria1.jpg" title="ferreteria1"></div>
+            <div><img src="img/ferreteria2.jpg" title="ferreteria2"></div>
+            <div><img src="img/ferreteria3.jpg" title="ferreteria3"></div>
+        </div>
+    </div>
+
+    <section class="cuadro1">
+        <h1>Más variedad a menor precio</h1>
+        <p>Convierte el exterior de tu casa en un oasis con nuestro
+            catálogo de mesas de madera, cristal o plástico, redondas
+            o rectangulares
+        </p>
+        <article id="boton">
+            <a href="#">PRODUCTOS</a>
+        </article>
+        
+    
+    </section>
+
+    <section class="cuadro2">
+        <div id="description">
+            <h3>Descuentos</h3>
+            <p>Para compras mayores a $50 en herramienta y accesorios.</p>
+            <a>Mas información</a><i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+    </section>
+    <!-- FIN DE Slider -->
+    <div class="clearfix"></div>
+    <!-- iconos -->
+    <div class="iconos">
+        <div class="card">
+            <i class="fas fa-trophy"></i>
+            <h3 class="category">Calidad</h3>
+            <p class="description">Materiales de calidad</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-user-clock"></i>
+            <h3 class="category">Garantía</h3>
+            <p class="description">Las marcas nos avalan</p>
+        </div>
+        <div class="card">
+            <i class="fab fa-cc-discover"></i>
+            <h3 class="category">Delivery</h3>
+            <p class="description">Compras mayores a $100</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-headset"></i>
+            <h3 class="category">Asesoría</h3>
+            <p class="description">Contamos con profesionales</p>
+        </div>
+    </div>
+
+    <!-- Fin de iconos -->
+    <div class="clearfix"></div>
+    <!-- productos -->
+
+    <div class="productos">
+        <div class="info">
+            <h1>Todo lo que puedes encontrar en un click</h1>
+            <p>Empieza a crear o diseñaar un nuevo ambiente en tu hogar o exterior con nuestros productos y servicios</p>
+            <article id="boton1">
+                <a href="#">Mas información</a>
+            </article>
+        
+        </div>
+        <div class="sliderP">
+            <div class="galeriaP">
+                <div><img src="img/pro1.jpg" title="ferreteria1"></div>
+                <div><img src="img/pro2.jpg" title="ferreteria2"></div>
+                <div><img src="img/pro3.jpg" title="ferreteria3"></div>
+                <div><img src="img/pro4.jpg" title="ferreteria3"></div>
+            </div>
+        </div>
+        <div id="description">
+            <h3>PRODUCTOS</h3>
+            <p>Visita nuestra seccion de productos</p>
+            <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+    </div>
+
+    <!-- fin de productos -->
+
+   <footer class="footer2">
+        <div class="ferretero">
+            <h2>Ferretero</h2>
+            <p>Tienda de construccion y servicio.
+                Vendemos más de 1000 productos de marca en nuestro sitio web.br <br>
+                <i class="fas fa-map-marker-alt"></i> Lima, Perú
+                <br><i class="fas fa-phone-alt"></i> +999 666 0000
+                <br>www.ferretero.com
+            </p>
+        </div>
+
+        <div class="menu">
+            <h2>Menu</h2>
+            <h3>Productos</h3>
+            <h3>Servicios</h3>
+            <h3>Marcas</h3>
+            <h3>Nosotros</h3>
+        </div>
+
+        <div class="contactanos">
+            <h2>Contactanos</h2>
+            <h3>Facebook</h3>
+            <h3>Escribanos</h3>
+        </div>
+
+        <div class="suscribete">
+            <h2>suscribete</h2>
+            <input type="text" placeholder="Ingresa tu email">
+            <i class="fas fa-caret-square-right"></i>
+        </div>
+   </footer>
+
+</body>
+</html>
