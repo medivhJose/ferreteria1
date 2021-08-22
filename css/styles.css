@@ -73,12 +73,14 @@ header label:hover{
     display: none;
 }
 
-header .menu-celular label{
+header label{
     display: none;
-    width: 30px;
+    float: left;
+    margin-top: 42px;
+    width: 9px;
     height: 30px;
     padding: 10px;
-    border-right: 1px solid #fff;
+    
 }
 
 
@@ -178,19 +180,28 @@ header .menu-celular label{
     
 }
 
+#search label{
+
+    display: block;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -3px;
+    font-size: 16px;
+}
+
 #search input[type="text"]{
     width: 343px;
     height: 30px;
     padding-left:23px;
 }
 
-#search i{
+/* #search i{
     display: block;
     position: absolute;
     margin-left: 7px;
     margin-top: 8px;
     font-size: 13px;
-}
+} */
 
 #trolley{
     display: block;

@@ -194,9 +194,31 @@
 
 @media (max-width: 994px){
 
-
     /* 3menu celular */
-    
+    header label{
+        display: block;
+        
+    }
+
+    #menu{
+        
+        float: none;
+        border: 1px solid red;
+        position: absolute !important;
+        width: 100px;
+        margin-top: 67px;
+        margin-left: -362px;
+        transition: all 0.5s;
+    }
+
+    #search {
+        margin-left: 16.5%;
+    }
+
+    #btn-menu:checked ~ #menu {
+        margin-left: -106px ; 
+    }
+
     /* fin menu celular */
 }
 
