@@ -224,5 +224,19 @@
     .cuadro1 {
         top: 192px;
     }
+
+    /* .iconos{
+        margin-left: 10px;
+    } */
+
+    .card:first-child {
+        margin-left: 65px;
+    }
+
+    .card{
+        width: 21%;
+    }
+
+
 }
 
