@@ -239,7 +239,7 @@
 
     .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
         
-        width: 47%;
+        width: 25% !important;
     }
 
     #slider .bx-wrapper .bx-prev {
@@ -265,5 +265,87 @@
     footer .contactanos {
         margin-left: -11%;
     }
+}
+
+@media (max-width: 934px){
+
+    .cuadro1 h1 {
+        width: 205px;
+        font-size: 14px;
+    }
+
+    .cuadro1 #boton {
+        top: 113px;
+        width: 154px;
+        height: 50px;
+    }
+
+    .cuadro1 a {
+        left: 14px;
+        top: 12px;
+        font-size: 17px;
+    }
+
+    .cuadro1 {
+        width: 26%;
+        height: 21%;
+        top: 19%;
+        left: 3%;
+    }
+
+    .cuadro2 {
+        left: 49%;
+    }
+
+    .productos .info {
+        margin-left: 3%;
+        width: 31.8%;
+    }
+    
+    .productos h1 {
+        font-size: 34px;
+    }
+
+    .productos p {
+        font-size: 14px;
+    }
+
+    .productos .sliderP {
+        width: 65%;
+    }
+
+
+    footer .ferretero {
+        width: 37%;
+        margin-left: 11%;
+    }
+
+    footer .menu {
+        width: 50%;
+       
+    } 
+    footer {
+        height: 529px;
+    }
+
+    footer p {
+        width: 300px;
+    }
+
+    footer .suscribete {
+        margin-left: -7%;
+        margin-top: 2px;
+    }
+
+    footer .contactanos {
+        margin-left: 11%;
+        width: 45%;
+        margin-top: 2px;
+    }
+
+    .productos #description {  
+        margin-left: 407px;
+    }
+
 }
 
