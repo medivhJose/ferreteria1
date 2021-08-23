@@ -237,6 +237,33 @@
         width: 21%;
     }
 
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        
+        width: 47%;
+    }
 
+    #slider .bx-wrapper .bx-prev {
+        left: 47% !important;
+    }
+
+    #slider .bx-wrapper .bx-next {
+        right: 44% !important;
+    }
+
+    .productos .info {
+        margin-left: 4%;
+
+    }
+
+    .productos .sliderP {
+        width: 63%;
+    }
+
+    footer .suscribete {
+        margin-left: 4%;
+    }
+    footer .contactanos {
+        margin-left: -11%;
+    }
 }
 
